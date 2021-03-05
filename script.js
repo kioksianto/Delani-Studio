@@ -28,7 +28,18 @@ $(document).ready(function(){
         $('#desc-2').hide();
 
     })
-  
+    // Product Design Description
+    $('#desc-image-3').click(function(){
+        $('#desc-3').show();
+        $('#desc-image-3').hide();
+
+    })
+
+    $('#desc-3').click(function(){
+        $('#desc-image-3').show();
+        $('#desc-3').hide();
+
+    })
     
 
 });
