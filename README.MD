@@ -17,7 +17,6 @@ One is able to find out about them, see the services they provide, view their pr
 Known Bugs
 
 - The alert message after contact submission does not indicate the inputted name.
-- The product design overlay description on 'What We Do' section of website is not responsive.
 
 Here are the features in summary:
 
