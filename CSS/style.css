@@ -1,0 +1,205 @@
+#mc_embed_signup {
+  background: transparent;
+  clear: left;
+  font: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+.navbar-nav {
+  text-align: right;
+}
+
+/* Home style*/
+.image-background {
+  background: no-repeat center center scroll;
+  background-size: 100% 100%;
+  background-attachment: no;
+  margin: 30px;
+  margin-left: 40px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.welcome {
+  color: #f5faf8;
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  right: 500px;
+  left: 0px;
+}
+.delani {
+  color: #f5faf8;
+  text-align: center;
+  position: absolute;
+  bottom: 200px;
+  right: 380px;
+  left: 0px;
+}
+.summary {
+  color: #f5faf8;
+  text-align: center;
+  position: absolute;
+  bottom: 150px;
+  right: 340px;
+  left: 0px;
+}
+.brand {
+  position: absolute;
+  bottom: 400px;
+  right: 540px;
+}
+.brand-1 {
+  position: absolute;
+  bottom: 50px;
+  right: 560px;
+}
+
+/*---About us --*/
+.about {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+/*---Service --*/
+.image-background-1 {
+  background: no-repeat center center scroll;
+  height: 70vh;
+  background-size: 100% 100%;
+  background-attachment: no;
+  margin: 30px;
+  margin-left: 40px;
+  position: relative;
+}
+.text-1 {
+  color: #f5faf8;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  bottom: 250px;
+  right: 0px;
+  position: absolute;
+}
+.text-1-1 {
+  color: #f5faf8;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  bottom: 200px;
+  right: 0px;
+  position: absolute;
+}
+.text-1-2 {
+  color: #f5faf8;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  bottom: 150px;
+  right: 0px;
+  position: absolute;
+}
+.service {
+  color: #f5faf8;
+  text-align: center;
+  bottom: 300px;
+  right: 550px;
+  position: absolute;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+/*--What We Do --*/
+.whatwedo {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+}
+#desc-1,
+#desc-2,
+#desc-3 {
+  display: none;
+}
+
+/*---Portfolio --*/
+.portfolio {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+
+#row-1 {
+  display: flex;
+  margin: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/*---Contact*/
+
+.contact {
+  background: url(../assets/background/rustic.jpg);
+  width: 1200px;
+  margin-left: 40px;
+  margin: 40px;
+  display: cover;
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.2em;
+  color: #f5faf8;
+}
+/*---footer*/
+.footer {
+  margin: 80px;
+}
+
+.icons-grid {
+  display: flex;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid-icons {
+  height: 4em;
+  display: block;
+  padding: 0.3em;
+}
+.copyright {
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+/*Images*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+@media (min-device-width: 600px) {
+  img[data-src-600px] {
+    content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width: 800px) {
+  img[data-src-800px] {
+    content: attr(data-src-800px, url);
+  }
+}
