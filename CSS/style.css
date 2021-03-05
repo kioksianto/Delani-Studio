@@ -69,7 +69,15 @@ body {
 }
 
 /*---Service --*/
-
+.image-background-1 {
+  background: no-repeat center center scroll;
+  height: 60vh;
+  background-size: 100% 100%;
+  background-attachment: no;
+  margin: 30px;
+  margin-left: 40px;
+  position: relative;
+}
 .text-1 {
   color: #f5faf8;
   text-align: center;
