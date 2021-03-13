@@ -4,9 +4,9 @@
 $(document).ready(function(){
 
     // Design Description
-    $('#desc-image-1').click(function(){
+    $('#desc-image1').click(function(){
         $('#desc-1').show();
-        $('#desc-image-1').hide();
+        $( '#inhouse', '#i').hide();
 
     })
 
